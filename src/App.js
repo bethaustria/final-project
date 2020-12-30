@@ -7,11 +7,13 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="background">
-      <Background />
-      <Forecast />
-      <Code />
-    </div>
+    <div>
+      <div className="background">
+        <Background />
+        <Forecast />
+      </div>
+        <Code />
+      </div>
   );
 }
 
