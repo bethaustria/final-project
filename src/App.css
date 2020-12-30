@@ -1,0 +1,145 @@
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #f4f2f2;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h4 {
+  color: #515151;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+h5 {
+  color: #515151;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+strong {
+  color: #515151;
+}
+
+form {
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+
+ul {
+  margin-top: 13px;
+}
+
+li {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+  padding-left: 10%;
+  text-align: left;
+  width: 150%;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.background {
+  background-color: #f4f2f2;
+  border: 1px solid #e3e5e8;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px rgba(81, 81, 81, 0.1);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 50%;
+}
+
+.header {
+  background-image: url("./images/weather.jpg");
+  border: 1px solid #e3e5e8;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px rgba(81, 81, 81, 0.1);
+  color: #fff;
+  margin-bottom: 25px;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.hour {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  line-height: 1;
+  margin-bottom: 1.5%;
+}
+
+.temp {
+  font-size: 50px;
+  font-weight: 500;
+  margin-left: -80px;
+  margin-top: -7px;
+  width: 250px;
+}
+
+.mainTemp {
+  color: #f4f2f2;
+}
+
+.forecast {
+  text-align: center;
+}
+
+.five {
+  margin-left: 90px;
+  text-align: center;
+}
+
+.icons {
+  font-size: 50px;
+}
+
+.temp-2 {
+  color: #faf9f9;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.col-2-days {
+  background: linear-gradient(#6dcce2, #aed9e2);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px 0px rgba(81, 81, 81, 0.1);
+  margin-right: 25px;
+  padding: 5px 20px 5px 20px;
+}
+
+.units {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  left: 5px;
+  position: relative;
+  top: -25px;
+}
+
+.code {
+  display: block;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.units .active {
+  color: #faf9f9;
+  cursor: default;
+}
+
+.units .active:hover {
+  text-decoration: none;
+}
