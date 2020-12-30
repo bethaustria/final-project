@@ -37,6 +37,7 @@ form {
 
 ul.col-2 {
   margin-top: 15px;
+  margin-left: 10px;
 }
 
 li {
@@ -93,7 +94,7 @@ li:first-letter {
   color: #f4f2f2;
   font-weight: 200;
   display: inline;
-  margin-left: -20px;
+ 
 }
 
 .forecast {
