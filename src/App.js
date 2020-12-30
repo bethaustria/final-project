@@ -1,13 +1,17 @@
-import './App.css';
+import React from "react";
+import Background from "./Background";
+import Forecast from "./Forecast";
+import Code from "./Code";
 
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      Weather App
-      
+    <div className="background">
+      <Background />
+      <Forecast />
+      <Code />
     </div>
   );
 }
 
-export default App;
