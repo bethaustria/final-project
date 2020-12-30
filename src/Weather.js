@@ -23,9 +23,9 @@ export default function Weather(props) {
             src="https://img.icons8.com/color/64/000000/sun.png"
             alt="weather icon"
           />
-          <strong id="temperature" className="mainTemp">
+          <p id="temperature" className="mainTemp">
             {Math.round(temperature)}
-          </strong>
+          </p>
           <span className="units">
             <a href="/#" className="active">
               °C
