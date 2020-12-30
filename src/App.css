@@ -24,6 +24,11 @@ h5 {
   padding-top: 25px;
 }
 
+img {
+    vertical-align: middle;
+    border-style: none;
+    padding-bottom: 10px;
+}
 
 form {
   margin-top: 23px;
@@ -31,7 +36,7 @@ form {
 }
 
 ul.col-2 {
-  margin-top: 12px;
+  margin-top: 15px;
 }
 
 li {
@@ -88,6 +93,7 @@ li:first-letter {
   color: #f4f2f2;
   font-weight: 200;
   display: inline;
+  margin-left: -20px;
 }
 
 .forecast {
@@ -101,6 +107,7 @@ li:first-letter {
 
 .icons {
   font-size: 50px;
+  padding-top: 25px;
 }
 
 .temp-2 {
