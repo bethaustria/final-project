@@ -20,7 +20,7 @@ export default function Weather(props) {
     temperature = parseInt(temp.innerText);  
   }
 
-  console.log("Converting to " + convertUnit + " with " + temperature + " into " + (Math.round(temperature * 9 / 5) + 32));
+  
   if (convertUnit === 'celsius') {
     return (
       <div className="row">
