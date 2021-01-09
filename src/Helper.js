@@ -68,7 +68,6 @@ import axios from 'axios';
 function displayForecast(response) {
   let forecastElement = document.querySelector("#showForecast");
   forecastElement.innerHTML = null;
-  let forecast = null;
 
   for (let index = 0; index < 5; index++) {
     let forecast = response.data.list[index];
