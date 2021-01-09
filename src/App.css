@@ -38,11 +38,11 @@ form {
 ul.col-2 {
   display: inline-block;
   margin-top: 15px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 li {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Raleway", sans-serif;
   list-style-type: none;  
   text-align: left;
@@ -75,7 +75,7 @@ li:first-letter {
   box-shadow: 5px 5px 5px 0px rgba(81, 81, 81, 0.1);
   color: #fff;
   margin-bottom: 25px;
-  padding-bottom: 2%;
+  padding-bottom: 100px;
   text-align: center;
 }
 
@@ -89,7 +89,7 @@ li:first-letter {
 .temp {
   font-size: 50px;
   font-weight: 500;
-  margin-left: -80px;
+  margin-left: -65px;
   margin-top: -7px;
   width: 250px;
 }
@@ -154,3 +154,4 @@ li:first-letter {
 .units .active:hover {
   text-decoration: none;
 }
+
