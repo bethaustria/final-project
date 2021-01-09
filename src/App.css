@@ -13,7 +13,7 @@ h4 {
   color: #515151;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 h5 {
@@ -36,6 +36,7 @@ form {
 }
 
 ul.col-2 {
+  display: inline-block;
   margin-top: 15px;
   margin-left: 10px;
 }
@@ -62,6 +63,10 @@ li:first-letter {
   margin: 0 auto;
   margin-top: 5%;
   width: 50%;
+}
+
+.info-box {
+  padding: 0 !important;
 }
 
 .header {
@@ -118,11 +123,13 @@ li:first-letter {
 }
 
 .col-2-days {
-  background: linear-gradient(#6dcce2, #aed9e2);
+  background-color: #5dc7dd;
   border-radius: 3px;
   box-shadow: 5px 5px 5px 0px rgba(81, 81, 81, 0.1);
-  margin-right: 15px;
-  padding: 5px 20px 5px 20px;
+  margin-left: 42px;
+  margin-right: -16px;
+  margin-top: 16px;
+  padding: 0px 10px 5px 10px;
 }
 
 .units {

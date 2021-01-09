@@ -3,7 +3,7 @@ import React from "react";
 export default function Humidity(props) {
   
   return (
-    <ul className="col-2">
+    <ul className="col-2 info-box">
       <li id="description">Sunny</li>
       <li>
         Humidity:

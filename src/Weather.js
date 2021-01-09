@@ -24,7 +24,7 @@ export default function Weather(props) {
   if (convertUnit === 'celsius') {
     return (
       <div className="row">
-         <div className="col-2 offset-4">
+         <div className="col-2 offset-4 info-box">
           <div className="temp">
             <img
               id="icon"
@@ -39,15 +39,15 @@ export default function Weather(props) {
               {" "}
                 | <a href="/#" onClick={showFahrenheit} className="active">°F</a>         
             </span>
-          <Humidity />
           </div>
          </div>
+         <Humidity />
        </div>
     );
   } else {
     return (
        <div className="row">
-         <div className="col-2 offset-4">
+         <div className="col-2 offset-4 info-box">
           <div className="temp">
             <img
               id="icon"
@@ -63,9 +63,9 @@ export default function Weather(props) {
               </a>{" "}
                 | °F            
             </span>
-          <Humidity />
           </div>
          </div>
+         <Humidity />
        </div>
     );
 
