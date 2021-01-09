@@ -70,12 +70,14 @@ li:first-letter {
 
 .header {
   background-image: url("./images/weather.jpg");
+  background-repeat: round;
   border: 1px solid #e3e5e8;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 0px rgba(81, 81, 81, 0.1);
   color: #fff;
   margin-bottom: 25px;
-  padding-bottom: 100px;
+  padding-bottom: 90px;
+  padding-top: 55px;
   text-align: center;
 }
 
