@@ -42,10 +42,9 @@ ul.col-2 {
 }
 
 li {
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Raleway", sans-serif;
-  list-style-type: none;
-  padding-left: 18%;
+  list-style-type: none;  
   text-align: left;
   width: 150%;
 }
@@ -135,7 +134,7 @@ li:first-letter {
 .units {
   display: inline-block;
   font-family: Arial, sans-serif;
-  font-size: 11px;
+  font-size: 15px;
   left: 5px;
   position: relative;
   top: -25px;
